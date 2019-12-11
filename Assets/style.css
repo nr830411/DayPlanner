@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -19,10 +19,35 @@ textarea{
   border-left: 1px solid black;
 }
 
+.input{
+  white-space: pre-wrap;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  border-left: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.time-block{
+  border-radius: 15px;
+}
+
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 2px solid black;
+  border-bottom-right-radius: 20px;
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  background-color: #B1FEE3;
  
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+  background-color: #D8F8ED;
 }
